@@ -9,7 +9,7 @@
 
 body {
     width: 100%;
-    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.971);    
     color: white;
 }
 
@@ -29,11 +29,24 @@ body {
     max-width: 600px;
 }
 
-#search-bar input {
+
+
+#search-bar input{
     height: 50px;
     border-radius: 20px;
     border: gray;
 }
+
+#search-bar input:hover{
+
+    height: 50px;
+    border-radius: 20px;
+    border: gray;
+
+}
+
+
+
 
 
 /* meal card */
